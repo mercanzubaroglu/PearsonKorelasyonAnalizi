@@ -1,1 +1,3 @@
-# PearsonKorelasyonAnalizi
+# PearsonCorrelationAnalysis
+
+Pearson Correlation Analysis is a statistical technique that measures how strong the linear relationship between two variables is. It takes a value between -1 and +1. Being close to +1 indicates a positive relationship, being close to -1 indicates a negative relationship, and being close to 0 indicates a weak relationship. This analysis is used to understand relationships in economic data, to examine consumer behavior in market research, or to determine the relationship between variables in scientific research. Understanding the strength and nature of the relationship between two variables is critical for data analysis and decision making.
