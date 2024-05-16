@@ -46,6 +46,11 @@ plt.show()
 #Bu kod, bir veri çerçevesindeki değişkenler arasındaki ilişkiyi görselleştirmek için kullanılır.
 #Heatmap, korelasyon matrisindeki değerlerin renklerle gösterilmesini sağlar ve böylece değişkenler arasındaki ilişkiyi anlamaya yardımcı olur.
 
+#Pearson Korelasyon Analizi, iki değişken arasındaki ilişkinin doğrusal olarak ne kadar güçlü olduğunu ölçen bir istatistiksel tekniktir.
+#-1 ile +1 arasında bir değer alır. +1'e yakın olması, pozitif bir ilişkiyi, -1'e yakın olması negatif bir ilişkiyi, 0'a yakın olması ise ilişkinin zayıf olduğunu gösterir. 
+#Bu analiz, ekonomik verilerdeki ilişkileri anlamak, pazar araştırmalarında tüketici davranışını incelemek veya bilimsel araştırmalarda değişkenler arasındaki ilişkiyi belirlemek için kullanılır.
+#İki değişken arasındaki ilişkinin gücünü ve doğasını anlamak, veri analizi ve karar verme süreçlerinde kritik öneme sahiptir.
+
 # Fiyat değişimlerinin entropisini hesaplama
 fiyat_degisimleri = veri["Kapanış(TL)"].diff().dropna()
 histogram, fiyat_araliklari = np.histogram(fiyat_degisimleri, bins='auto', density=True)
